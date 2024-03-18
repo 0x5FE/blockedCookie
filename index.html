@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Bloqueador de Cookies</title>
+</head>
+<body>
+  <h1>Bloqueador de Cookies</h1>
+  <p>Este plugin bloqueia por padrão a solicitação de coleta de cookies de sites.</p>
+  <p>Você pode personalizar o comportamento do plugin nas opções abaixo.</p>
+  <ul>
+    <li>
+      <label for="permitir-cookies-essenciais">Permitir cookies essenciais:</label>
+      <input type="checkbox" id="permitir-cookies-essenciais">
+    </li>
+    <li>
+      <label for="bloquear-cookies-terceiros">Bloquear cookies de terceiros:</label>
+      <input type="checkbox" id="bloquear-cookies-terceiros">
+    </li>
+    <li>
+      <label for="lista-permissoes">Lista de permissões:</label>
+      <br>
+      <textarea id="lista-permissoes" rows="5" cols="50"></textarea>
+    </li>
+    <li>
+      <label for="lista-bloqueios">Lista de bloqueios:</label>
+      <br>
+      <textarea id="lista-bloqueios" rows="5" cols="50"></textarea>
+    </li>
+  </ul>
+  <p>
+    <button type="button" onclick="salvarOpcoes()">Salvar opções</button>
+  </p>
+</body>
+</html>
